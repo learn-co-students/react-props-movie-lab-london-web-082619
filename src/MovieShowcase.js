@@ -18,7 +18,7 @@ export default class MovieShowcase extends Component {
               console.log(this)
       return (
         <div id="movie-showcase">
-          {this.generateMovieCards()}
+          {this.generateMovieCards()} 
           {this.props.title}
         </div>
       )
